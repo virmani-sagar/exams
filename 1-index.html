@@ -1,0 +1,1861 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#155eef">
+
+<title>Competitive Exam Preparation Hub | openEd Labs</title>
+
+<meta name="description" content="Explore NDA, CDS, AFCAT, JEE, CUET, SSC, Banking, GATE, CAT and other competitive examination preparation resources with openEd Labs.">
+<meta name="keywords" content="competitive exams, NDA preparation, CDS, AFCAT, JEE Main, CUET, SSC CGL, banking exams, GATE, CAT, openEd Labs">
+<meta name="author" content="openEd Labs">
+
+<meta property="og:title" content="Competitive Exam Preparation Hub | openEd Labs">
+<meta property="og:description" content="Explore examinations, preparation resources and career opportunities with openEd Labs.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"EducationalOrganization",
+  "name":"openEd Labs",
+  "url":"https://openedlabs.eduspace.work/",
+  "email":"openedlabs@gmail.com",
+  "telephone":"+91-9625188625",
+  "description":"Professional learning and competitive examination preparation resources."
+}
+</script>
+
+<style>
+:root {
+  --primary:#155eef;
+  --primary-dark:#0b3fae;
+  --light:#eef4ff;
+  --ink:#17233b;
+  --muted:#69778e;
+  --border:#e4eaf3;
+  --background:#f6f8fc;
+  --orange:#ff9b36;
+  --white:#fff;
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body {
+  margin:0;
+  font-family:"DM Sans",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.6;
+}
+
+a{text-decoration:none;color:inherit}
+
+button,input{font:inherit}
+
+.container {
+  width:min(1160px,calc(100% - 36px));
+  margin:auto;
+}
+
+/* TOP BAR */
+
+.topbar {
+  background:#0b2866;
+  color:#dce7ff;
+  padding:8px 0;
+  font-size:12px;
+}
+
+.topbar .container {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.topbar a{color:white;font-weight:700}
+
+/* NAVIGATION */
+
+header {
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:rgba(255,255,255,.96);
+  border-bottom:1px solid var(--border);
+  backdrop-filter:blur(12px);
+}
+
+.nav {
+  min-height:76px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+}
+
+.brand {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-family:Manrope,sans-serif;
+  font-size:19px;
+  font-weight:800;
+}
+
+.brand-icon {
+  width:42px;
+  height:42px;
+  border-radius:12px;
+  background:var(--primary);
+  color:white;
+  display:grid;
+  place-items:center;
+}
+
+.brand small {
+  display:block;
+  font:700 9px "DM Sans";
+  letter-spacing:1.5px;
+  color:var(--muted);
+}
+
+.navlinks {
+  display:flex;
+  align-items:center;
+  gap:24px;
+  font-size:13px;
+  font-weight:700;
+}
+
+.navlinks a:hover{color:var(--primary)}
+
+.menu-btn {
+  display:none;
+  background:none;
+  border:0;
+  font-size:25px;
+  cursor:pointer;
+}
+
+.btn {
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  gap:8px;
+  padding:12px 19px;
+  border-radius:11px;
+  background:var(--primary);
+  color:white;
+  border:0;
+  font-weight:800;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.btn:hover {
+  background:var(--primary-dark);
+  transform:translateY(-2px);
+}
+
+/* HERO */
+
+.hero {
+  background:linear-gradient(115deg,#092d78,#155eef 65%,#4285ff);
+  color:white;
+  padding:75px 0;
+  position:relative;
+  overflow:hidden;
+}
+
+.hero:after {
+  content:"";
+  position:absolute;
+  width:500px;
+  height:500px;
+  border:1px solid #ffffff25;
+  border-radius:50%;
+  right:-150px;
+  top:-200px;
+  box-shadow:0 0 0 65px #ffffff0c,0 0 0 130px #ffffff08;
+}
+
+.hero-grid {
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:45px;
+  align-items:center;
+}
+
+.eyebrow {
+  color:#dbe7ff;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:12px;
+  font-weight:800;
+}
+
+.hero h1 {
+  font:800 clamp(38px,5vw,60px)/1.12 Manrope,sans-serif;
+  letter-spacing:-2px;
+  margin:18px 0;
+}
+
+.hero h1 span{color:#ffd092}
+
+.hero p {
+  color:#e1eaff;
+  max-width:620px;
+  font-size:16px;
+  margin-bottom:28px;
+}
+
+.hero-actions {
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.btn-white {
+  background:white;
+  color:var(--primary);
+}
+
+.btn-outline {
+  border:1px solid #ffffff70;
+  background:transparent;
+}
+
+.hero-card {
+  background:white;
+  color:var(--ink);
+  padding:25px;
+  border-radius:22px;
+  box-shadow:0 25px 70px #001c5945;
+}
+
+.hero-card h3 {
+  font:800 17px Manrope;
+  margin:0 0 20px;
+}
+
+.stats {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.stat {
+  padding:16px;
+  background:var(--background);
+  border-radius:13px;
+}
+
+.stat strong {
+  display:block;
+  color:var(--primary);
+  font:800 27px Manrope;
+}
+
+.stat span {
+  color:var(--muted);
+  font-size:12px;
+}
+
+/* SECTION */
+
+section{padding:70px 0}
+
+.section-heading {
+  margin-bottom:28px;
+}
+
+.kicker {
+  color:var(--primary);
+  text-transform:uppercase;
+  font-weight:800;
+  font-size:11px;
+  letter-spacing:1.6px;
+}
+
+.section-heading h2 {
+  font:800 clamp(27px,4vw,37px) Manrope;
+  letter-spacing:-1px;
+  margin:7px 0;
+}
+
+.section-heading p {
+  color:var(--muted);
+  max-width:650px;
+  font-size:14px;
+}
+
+/* EXAM SEARCH */
+
+.search-panel {
+  background:var(--background);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:22px;
+}
+
+.search-row {
+  display:flex;
+  gap:12px;
+}
+
+.search-row input {
+  flex:1;
+  min-width:0;
+  border:1px solid var(--border);
+  background:white;
+  border-radius:11px;
+  padding:14px 16px;
+  outline:none;
+}
+
+.search-row input:focus {
+  border-color:var(--primary);
+  box-shadow:0 0 0 3px #155eef18;
+}
+
+.filters {
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:17px;
+}
+
+.filter {
+  border:1px solid var(--border);
+  background:white;
+  color:#52617a;
+  border-radius:30px;
+  padding:8px 14px;
+  font-size:12px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.filter.active,.filter:hover {
+  background:var(--primary);
+  color:white;
+  border-color:var(--primary);
+}
+
+/* EXAM CARDS */
+
+.result-count {
+  margin:22px 0 14px;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:700;
+}
+
+.exam-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:17px;
+}
+
+.exam-card {
+  border:1px solid var(--border);
+  border-radius:17px;
+  padding:21px;
+  background:white;
+  transition:.2s;
+  display:flex;
+  flex-direction:column;
+  min-height:235px;
+}
+
+.exam-card:hover {
+  transform:translateY(-4px);
+  box-shadow:0 15px 35px #183b8012;
+  border-color:#b9ccf4;
+}
+
+.card-top {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.exam-icon {
+  width:43px;
+  height:43px;
+  display:grid;
+  place-items:center;
+  background:var(--light);
+  border-radius:12px;
+  font-size:21px;
+}
+
+.tag {
+  background:#eef4ff;
+  color:#2459b7;
+  border-radius:20px;
+  padding:5px 9px;
+  font-size:10px;
+  font-weight:800;
+}
+
+.exam-card h3 {
+  font:800 18px Manrope;
+  margin:16px 0 6px;
+}
+
+.exam-card p {
+  color:var(--muted);
+  font-size:13px;
+  flex:1;
+}
+
+.card-footer {
+  border-top:1px solid var(--border);
+  padding-top:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:11px;
+  color:var(--muted);
+}
+
+.view-btn {
+  background:none;
+  border:0;
+  color:var(--primary);
+  font-weight:800;
+  cursor:pointer;
+}
+
+.empty {
+  display:none;
+  padding:40px;
+  text-align:center;
+  color:var(--muted);
+  border:1px dashed var(--border);
+  border-radius:15px;
+}
+
+/* FEATURES */
+
+.features-section{background:var(--background)}
+
+.feature-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.feature {
+  background:white;
+  border:1px solid var(--border);
+  border-radius:17px;
+  padding:24px;
+}
+
+.feature-icon {
+  width:45px;
+  height:45px;
+  background:var(--light);
+  display:grid;
+  place-items:center;
+  border-radius:12px;
+  font-size:21px;
+}
+
+.feature h3 {
+  font:800 16px Manrope;
+  margin:15px 0 7px;
+}
+
+.feature p {
+  font-size:13px;
+  color:var(--muted);
+}
+
+/* STEPS */
+
+.steps {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+
+.step {
+  padding:20px;
+  border:1px solid var(--border);
+  border-radius:15px;
+}
+
+.step-number {
+  color:var(--primary);
+  font-weight:800;
+  background:var(--light);
+  padding:7px 11px;
+  border-radius:8px;
+}
+
+.step h3 {
+  font:800 15px Manrope;
+  margin:15px 0 5px;
+}
+
+.step p {
+  color:var(--muted);
+  font-size:12px;
+}
+
+/* CTA */
+
+.cta {
+  background:linear-gradient(110deg,#0b347f,#155eef);
+  color:white;
+  padding:35px;
+  border-radius:22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:25px;
+}
+
+.cta h2 {
+  font:800 27px Manrope;
+  margin:0 0 8px;
+}
+
+.cta p {
+  color:#dce8ff;
+  font-size:14px;
+}
+
+.cta .btn {
+  background:white;
+  color:var(--primary);
+  white-space:nowrap;
+}
+
+/* FAQ */
+
+.faq-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:13px;
+}
+
+details {
+  border:1px solid var(--border);
+  padding:17px;
+  border-radius:13px;
+}
+
+summary {
+  font-weight:800;
+  font-size:14px;
+  cursor:pointer;
+}
+
+details p {
+  color:var(--muted);
+  font-size:13px;
+}
+
+/* FOOTER */
+
+footer {
+  background:#0c1d3c;
+  color:#dbe5f7;
+  padding:45px 0 20px;
+}
+
+.footer-grid {
+  display:grid;
+  grid-template-columns:1.3fr .7fr .8fr;
+  gap:35px;
+}
+
+footer h4{color:white}
+
+footer p,footer a {
+  color:#aebdd7;
+  font-size:13px;
+}
+
+.footer-links {
+  display:grid;
+  gap:9px;
+}
+
+.footer-links a:hover{color:white}
+
+.copyright {
+  border-top:1px solid #ffffff20;
+  margin-top:30px;
+  padding-top:18px;
+  font-size:11px;
+  color:#94a7c8;
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+}
+
+/* MODAL */
+
+.modal {
+  display:none;
+  position:fixed;
+  inset:0;
+  z-index:100;
+  background:#06142bd9;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.modal.show{display:flex}
+
+.modal-content {
+  background:white;
+  padding:27px;
+  border-radius:19px;
+  max-width:600px;
+  width:100%;
+  max-height:85vh;
+  overflow:auto;
+}
+
+.modal-header {
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+}
+
+.modal-header h2 {
+  font:800 24px Manrope;
+  margin:0;
+}
+
+.close {
+  width:35px;
+  height:35px;
+  border:0;
+  border-radius:9px;
+  cursor:pointer;
+  font-size:20px;
+}
+
+.modal-content p,.modal-content li {
+  color:var(--muted);
+  font-size:14px;
+}
+
+.modal-content h3 {
+  font:800 15px Manrope;
+}
+
+.modal-actions {
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+  .exam-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-grid{grid-template-columns:1fr}
+  .feature-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:650px) {
+  .menu-btn{display:block}
+
+  .navlinks {
+    display:none;
+    position:absolute;
+    top:76px;
+    left:0;
+    right:0;
+    background:white;
+    padding:20px;
+    flex-direction:column;
+    align-items:stretch;
+    border-bottom:1px solid var(--border);
+  }
+
+  .navlinks.open{display:flex}
+
+  .exam-grid,.feature-grid,.faq-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero{padding:55px 0}
+  .search-row{flex-direction:column}
+  .cta{display:block}
+  .cta .btn{margin-top:15px}
+  .copyright{display:block}
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>Learn • Build • Deploy • Innovate</span>
+    <span>Contact: <a href="mailto:openedlabs@gmail.com">openedlabs@gmail.com</a></span>
+  </div>
+</div>
+
+<header>
+  <div class="container nav">
+    <a href="#home" class="brand">
+
+      <span>
+        openEd Labs
+        <small>EXAM PREPARATION HUB</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+
+    <nav class="navlinks" id="navLinks">
+      <a href="#exams">Examinations</a>
+      <a href="#preparation">Preparation</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Get Guidance ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <div>
+      <div class="eyebrow">YOUR NEXT GOAL STARTS HERE</div>
+
+      <h1>
+        Prepare with purpose.<br>
+        <span>Move forward.</span>
+      </h1>
+
+      <p>
+        Explore competitive examinations, understand your preparation
+        path and access structured learning resources with openEd Labs.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#exams" class="btn btn-white">Explore Examinations →</a>
+        <a href="#preparation" class="btn btn-outline">Preparation Resources</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Explore your opportunities</h3>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>30+</strong>
+          <span>Exam pathways</span>
+        </div>
+
+        <div class="stat">
+          <strong>5</strong>
+          <span>Exam categories</span>
+        </div>
+
+        <div class="stat">
+          <strong>24/7</strong>
+          <span>Self-paced discovery</span>
+        </div>
+
+        <div class="stat">
+          <strong>1 Hub</strong>
+          <span>Multiple career paths</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXAMINATION DIRECTORY -->
+
+<section id="exams">
+<div class="container">
+
+  <div class="section-heading">
+    <div class="kicker">Find your direction</div>
+    <h2>Explore Examinations</h2>
+    <p>
+      Browse defence, engineering, university admission, government
+      recruitment and professional entrance examinations.
+    </p>
+  </div>
+
+  <div class="search-panel">
+
+    <div class="search-row">
+      <input
+        type="search"
+        id="examSearch"
+        placeholder="Search examination, category or career..."
+        aria-label="Search examinations">
+
+      <button class="btn" id="clearSearch">Clear</button>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all">All Exams</button>
+      <button class="filter" data-filter="defence">Defence & Aviation</button>
+      <button class="filter" data-filter="engineering">Engineering & Science</button>
+      <button class="filter" data-filter="university">University Admissions</button>
+      <button class="filter" data-filter="government">Government Jobs</button>
+      <button class="filter" data-filter="professional">Professional</button>
+    </div>
+
+  </div>
+
+  <div class="result-count" id="resultCount"></div>
+
+  <div class="exam-grid" id="examGrid"></div>
+
+  <div class="empty" id="emptyState">
+    No matching examinations found. Try another search.
+  </div>
+
+</div>
+</section>
+
+<!-- PREPARATION FEATURES -->
+
+<section class="features-section" id="preparation">
+<div class="container">
+
+  <div class="section-heading">
+    <div class="kicker">Prepare smarter</div>
+    <h2>Preparation Resources</h2>
+    <p>
+      Develop a consistent preparation routine with concept learning,
+      practice, revision and performance analysis.
+    </p>
+  </div>
+
+  <div class="feature-grid">
+
+    <article class="feature">
+      <div class="feature-icon">📚</div>
+      <h3>Syllabus & Study Planning</h3>
+      <p>
+        Break the syllabus into manageable topics and establish
+        weekly preparation targets.
+      </p>
+    </article>
+
+    <article class="feature">
+      <div class="feature-icon">✍️</div>
+      <h3>Topic-wise Practice</h3>
+      <p>
+        Strengthen fundamentals through practice questions
+        and detailed explanations.
+      </p>
+    </article>
+
+    <article class="feature">
+      <div class="feature-icon">⏱️</div>
+      <h3>Mock Test Preparation</h3>
+      <p>
+        Improve time management and examination strategy
+        through timed practice.
+      </p>
+    </article>
+
+    <article class="feature">
+      <div class="feature-icon">📈</div>
+      <h3>Performance Analysis</h3>
+      <p>
+        Identify strengths, weaknesses and areas
+        that need additional practice.
+      </p>
+    </article>
+
+    <article class="feature">
+      <div class="feature-icon">🗓️</div>
+      <h3>Exam Notifications</h3>
+      <p>
+        Check official notifications, application dates,
+        eligibility and examination changes.
+      </p>
+    </article>
+
+    <article class="feature">
+      <div class="feature-icon">🎓</div>
+      <h3>Guided Learning</h3>
+      <p>
+        Enquire about structured learning support
+        and training programmes from openEd Labs.
+      </p>
+    </article>
+
+  </div>
+</div>
+</section>
+
+<!-- PROCESS -->
+
+<section>
+<div class="container">
+
+  <div class="section-heading">
+    <div class="kicker">Your preparation journey</div>
+    <h2>From Goal to Preparation</h2>
+  </div>
+
+  <div class="steps">
+
+    <div class="step">
+      <span class="step-number">01</span>
+      <h3>Choose an Exam</h3>
+      <p>Find examinations matching your interests and career goals.</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">02</span>
+      <h3>Check Eligibility</h3>
+      <p>Understand qualification, age and other requirements.</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">03</span>
+      <h3>Build a Study Plan</h3>
+      <p>Organise subjects, preparation time and revision.</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">04</span>
+      <h3>Practise & Improve</h3>
+      <p>Attempt practice tests and analyse your performance.</p>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="about">
+<div class="container">
+
+  <div class="cta" id="contact">
+    <div>
+      <h2>Make Your Next Move Count.</h2>
+      <p>
+        Looking for guided preparation, technical learning
+        or institutional training?
+      </p>
+    </div>
+
+    <a class="btn"
+       href="https://wa.me/919625188625?text=Hello%20openEd%20Labs%2C%20I%20would%20like%20to%20know%20about%20exam%20preparation.">
+       Contact openEd Labs ↗
+    </a>
+  </div>
+
+</div>
+</section>
+
+<!-- FAQ -->
+
+<section class="features-section">
+<div class="container">
+
+  <div class="section-heading">
+    <div class="kicker">Frequently asked questions</div>
+    <h2>Need More Information?</h2>
+  </div>
+
+  <div class="faq-grid">
+
+    <details>
+      <summary>Is this an official examination website?</summary>
+      <p>
+        No. This is an independent examination discovery
+        and preparation resource by openEd Labs.
+      </p>
+    </details>
+
+    <details>
+      <summary>Where can I check examination eligibility?</summary>
+      <p>
+        Always refer to the latest notification published
+        by the official examination authority.
+      </p>
+    </details>
+
+    <details>
+      <summary>Will mock tests and question banks be available?</summary>
+      <p>
+        Preparation resources can be added progressively.
+        Availability may differ by examination.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can I enquire about live classes?</summary>
+      <p>
+        Yes. Contact openEd Labs to discuss subjects,
+        examination goals and possible training arrangements.
+      </p>
+    </details>
+
+  </div>
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+<div class="container">
+
+  <div class="footer-grid">
+
+    <div>
+      <a href="#home" class="brand">
+        <span style="color:white">
+          openEd Labs
+          <small style="color:#b4c5e3">EXAM PREPARATION HUB</small>
+        </span>
+      </a>
+
+      <p>
+        Learn • Build • Deploy • Innovate.
+        An independent learning and examination preparation
+        resource from openEd Labs.
+      </p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <div class="footer-links">
+        <a href="#exams">All Examinations</a>
+        <a href="#preparation">Preparation Resources</a>
+        <a href="#about">About openEd Labs</a>
+        <a href="https://openedlabs.eduspace.work/">Main Website</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <div class="footer-links">
+        <a href="mailto:openedlabs@gmail.com">openedlabs@gmail.com</a>
+        <a href="https://wa.me/919625188625">+91 9625188625</a>
+        <a href="https://openedlabs.eduspace.work/">openEd Labs</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    <span>© <span id="year"></span> openEd Labs. All rights reserved.</span>
+    <span>Independent preparation resource. Not affiliated with examination authorities.</span>
+  </div>
+
+</div>
+</footer>
+
+<!-- EXAM DETAILS MODAL -->
+
+<div class="modal" id="examModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <div>
+        <div class="kicker" id="modalCategory">EXAM OVERVIEW</div>
+        <h2 id="modalTitle"></h2>
+      </div>
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+    </div>
+
+    <p id="modalDescription"></p>
+
+    <h3>Preparation Overview</h3>
+    <ul id="modalPoints"></ul>
+
+    <h3>Official Information</h3>
+    <p>
+      Refer to the official examination authority for the
+      latest eligibility, syllabus, application dates and notifications.
+    </p>
+
+    <div class="modal-actions">
+      <a class="btn" id="officialLink" href="#" target="_blank" rel="noopener">
+        Official Website ↗
+      </a>
+      <a class="btn" style="background:#edf3ff;color:#155eef"
+         href="mailto:openedlabs@gmail.com?subject=Exam%20Preparation%20Enquiry">
+        Training Enquiry
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+/* EXAM DIRECTORY DATA */
+
+const exams = [
+
+  // DEFENCE & AVIATION
+
+  {
+    name:"NDA & NA",
+    category:"defence",
+    tag:"Defence",
+    icon:"🛡️",
+    description:"UPSC examination for admission to the National Defence Academy and Naval Academy.",
+    points:[
+      "Mathematics and General Ability Test preparation.",
+      "Review age and educational eligibility.",
+      "Understand the written examination and subsequent selection stages."
+    ],
+    url:"https://upsc.gov.in/"
+  },
+
+  {
+    name:"CDS",
+    category:"defence",
+    tag:"Defence",
+    icon:"🎖️",
+    description:"Combined Defence Services examination for entry into specified defence training academies.",
+    points:[
+      "English and General Knowledge preparation.",
+      "Elementary Mathematics where applicable.",
+      "Review academy-specific eligibility."
+    ],
+    url:"https://upsc.gov.in/"
+  },
+
+  {
+    name:"AFCAT",
+    category:"defence",
+    tag:"Air Force",
+    icon:"✈️",
+    description:"Indian Air Force officer-entry examination for eligible graduates.",
+    points:[
+      "Numerical Ability.",
+      "Reasoning and Military Aptitude.",
+      "English and General Awareness."
+    ],
+    url:"https://afcat.cdac.in/"
+  },
+
+  {
+    name:"Agniveer Army",
+    category:"defence",
+    tag:"Defence",
+    icon:"🪖",
+    description:"Indian Army recruitment under the Agnipath scheme.",
+    points:[
+      "Review trade-specific eligibility.",
+      "Prepare for the applicable written examination.",
+      "Understand physical and medical requirements."
+    ],
+    url:"https://joinindianarmy.nic.in/"
+  },
+
+  {
+    name:"Agniveer Navy",
+    category:"defence",
+    tag:"Defence",
+    icon:"⚓",
+    description:"Indian Navy Agniveer recruitment pathways.",
+    points:[
+      "Review current recruitment notification.",
+      "Check educational requirements.",
+      "Prepare for applicable written and physical stages."
+    ],
+    url:"https://www.joinindiannavy.gov.in/"
+  },
+
+  {
+    name:"Agniveervayu",
+    category:"defence",
+    tag:"Air Force",
+    icon:"🛩️",
+    description:"Indian Air Force Agniveervayu recruitment.",
+    points:[
+      "Review current intake notification.",
+      "Check qualification requirements.",
+      "Prepare for applicable selection stages."
+    ],
+    url:"https://agnipathvayu.cdac.in/"
+  },
+
+  {
+    name:"CAPF Assistant Commandant",
+    category:"defence",
+    tag:"Defence",
+    icon:"⭐",
+    description:"UPSC recruitment examination for Assistant Commandants in Central Armed Police Forces.",
+    points:[
+      "General Ability and Intelligence.",
+      "Review physical standards.",
+      "Understand written and interview stages."
+    ],
+    url:"https://upsc.gov.in/"
+  },
+
+  // ENGINEERING & SCIENCE
+
+  {
+    name:"JEE Main",
+    category:"engineering",
+    tag:"Engineering",
+    icon:"📐",
+    description:"National-level entrance examination for participating engineering institutions.",
+    points:[
+      "Physics.",
+      "Chemistry.",
+      "Mathematics."
+    ],
+    url:"https://jeemain.nta.nic.in/"
+  },
+
+  {
+    name:"JEE Advanced",
+    category:"engineering",
+    tag:"Engineering",
+    icon:"🧮",
+    description:"Entrance examination for admission to IIT undergraduate programmes.",
+    points:[
+      "Advanced Physics.",
+      "Advanced Chemistry.",
+      "Advanced Mathematics."
+    ],
+    url:"https://jeeadv.ac.in/"
+  },
+
+  {
+    name:"BITSAT",
+    category:"engineering",
+    tag:"Engineering",
+    icon:"🧪",
+    description:"Entrance examination for undergraduate programmes at BITS campuses.",
+    points:[
+      "Review the current examination brochure.",
+      "Prepare notified subjects and aptitude components.",
+      "Check programme eligibility."
+    ],
+    url:"https://www.bitsadmission.com/"
+  },
+
+  {
+    name:"VITEEE",
+    category:"engineering",
+    tag:"Engineering",
+    icon:"💻",
+    description:"VIT engineering entrance examination.",
+    points:[
+      "Review current admission brochure.",
+      "Prepare prescribed subjects.",
+      "Check programme and campus requirements."
+    ],
+    url:"https://viteee.vit.ac.in/"
+  },
+
+  {
+    name:"GATE",
+    category:"engineering",
+    tag:"Engineering",
+    icon:"⚙️",
+    description:"Graduate Aptitude Test in Engineering for postgraduate admissions and other opportunities.",
+    points:[
+      "Choose the relevant subject paper.",
+      "Review the official syllabus.",
+      "Prepare subject-specific concepts and aptitude."
+    ],
+    url:"https://gate2026.iisc.ac.in/"
+  },
+
+  {
+    name:"AME CET",
+    category:"engineering",
+    tag:"Aviation",
+    icon:"🛫",
+    description:"Entrance examination associated with aviation and aircraft maintenance engineering admissions.",
+    points:[
+      "Review current admission brochure.",
+      "Check course and institute details.",
+      "Understand eligibility and admission process."
+    ],
+    url:"https://www.amecet.in/"
+  },
+
+  {
+    name:"IMU CET",
+    category:"engineering",
+    tag:"Maritime",
+    icon:"🚢",
+    description:"Indian Maritime University Common Entrance Test.",
+    points:[
+      "Check programme-specific eligibility.",
+      "Review current admission prospectus.",
+      "Understand counselling requirements."
+    ],
+    url:"https://www.imu.edu.in/"
+  },
+
+  {
+    name:"IGRUA Entrance",
+    category:"engineering",
+    tag:"Aviation",
+    icon:"🛩️",
+    description:"Entrance and selection process for pilot training at IGRUA.",
+    points:[
+      "Review current admission notice.",
+      "Check educational and medical requirements.",
+      "Understand written and selection stages."
+    ],
+    url:"https://igrua.gov.in/"
+  },
+
+  // UNIVERSITY ADMISSIONS
+
+  {
+    name:"CUET UG",
+    category:"university",
+    tag:"University",
+    icon:"🎓",
+    description:"Common University Entrance Test for undergraduate admissions.",
+    points:[
+      "Review subject selection.",
+      "Check university-specific eligibility.",
+      "Prepare according to the current information bulletin."
+    ],
+    url:"https://cuet.nta.nic.in/"
+  },
+
+  {
+    name:"CUET PG",
+    category:"university",
+    tag:"University",
+    icon:"📖",
+    description:"Common University Entrance Test for postgraduate admissions.",
+    points:[
+      "Choose the appropriate test paper.",
+      "Review university-specific requirements.",
+      "Check the latest examination bulletin."
+    ],
+    url:"https://exams.nta.ac.in/CUET-PG/"
+  },
+
+  {
+    name:"CLAT",
+    category:"university",
+    tag:"Law",
+    icon:"⚖️",
+    description:"Common Law Admission Test for participating National Law Universities.",
+    points:[
+      "English Language.",
+      "Current Affairs and General Knowledge.",
+      "Legal Reasoning, Logical Reasoning and Quantitative Techniques."
+    ],
+    url:"https://consortiumofnlus.ac.in/"
+  },
+
+  {
+    name:"IPMAT",
+    category:"university",
+    tag:"Management",
+    icon:"📊",
+    description:"Integrated management programme aptitude tests conducted by participating institutes.",
+    points:[
+      "Quantitative Ability.",
+      "Verbal Ability.",
+      "Review institute-specific examination patterns."
+    ],
+    url:"https://www.iimidr.ac.in/"
+  },
+
+  {
+    name:"NCHM JEE",
+    category:"university",
+    tag:"Hospitality",
+    icon:"🏨",
+    description:"Entrance examination for specified hospitality and hotel administration programmes.",
+    points:[
+      "Review current examination bulletin.",
+      "Prepare prescribed aptitude areas.",
+      "Check admission requirements."
+    ],
+    url:"https://exams.nta.ac.in/NCHM/"
+  },
+
+  {
+    name:"NIFT Entrance",
+    category:"university",
+    tag:"Design",
+    icon:"🎨",
+    description:"Admission process for programmes offered by the National Institute of Fashion Technology.",
+    points:[
+      "Review programme-specific requirements.",
+      "Prepare applicable aptitude and creative assessments.",
+      "Check the current prospectus."
+    ],
+    url:"https://www.nift.ac.in/"
+  },
+
+  {
+    name:"NATA",
+    category:"university",
+    tag:"Architecture",
+    icon:"🏛️",
+    description:"National Aptitude Test in Architecture.",
+    points:[
+      "Drawing and observation skills.",
+      "Reasoning and aptitude.",
+      "Review Council of Architecture requirements."
+    ],
+    url:"https://www.nata.in/"
+  },
+
+  // GOVERNMENT JOBS
+
+  {
+    name:"SSC CGL",
+    category:"government",
+    tag:"Government",
+    icon:"🏢",
+    description:"Staff Selection Commission Combined Graduate Level examination.",
+    points:[
+      "Quantitative Aptitude.",
+      "Reasoning.",
+      "English and General Awareness."
+    ],
+    url:"https://ssc.gov.in/"
+  },
+
+  {
+    name:"SSC CHSL",
+    category:"government",
+    tag:"Government",
+    icon:"📝",
+    description:"SSC Combined Higher Secondary Level recruitment examination.",
+    points:[
+      "Quantitative Aptitude.",
+      "English and Reasoning.",
+      "General Awareness and applicable skill tests."
+    ],
+    url:"https://ssc.gov.in/"
+  },
+
+  {
+    name:"SSC GD",
+    category:"government",
+    tag:"Government",
+    icon:"👮",
+    description:"SSC General Duty Constable recruitment examination.",
+    points:[
+      "General Intelligence and Reasoning.",
+      "General Knowledge and Mathematics.",
+      "Review physical requirements."
+    ],
+    url:"https://ssc.gov.in/"
+  },
+
+  {
+    name:"RRB NTPC",
+    category:"government",
+    tag:"Railways",
+    icon:"🚆",
+    description:"Railway Recruitment Board Non-Technical Popular Categories examination.",
+    points:[
+      "Mathematics.",
+      "General Intelligence and Reasoning.",
+      "General Awareness."
+    ],
+    url:"https://www.rrbapply.gov.in/"
+  },
+
+  {
+    name:"RRB Group D",
+    category:"government",
+    tag:"Railways",
+    icon:"🚉",
+    description:"Railway recruitment for notified Level 1 posts.",
+    points:[
+      "Mathematics.",
+      "General Science.",
+      "Reasoning and General Awareness."
+    ],
+    url:"https://www.rrbapply.gov.in/"
+  },
+
+  {
+    name:"IBPS PO & Clerk",
+    category:"government",
+    tag:"Banking",
+    icon:"🏦",
+    description:"Banking recruitment examinations conducted by IBPS.",
+    points:[
+      "Reasoning Ability.",
+      "Quantitative Aptitude.",
+      "English Language and other notified sections."
+    ],
+    url:"https://www.ibps.in/"
+  },
+
+  {
+    name:"SBI PO & Clerk",
+    category:"government",
+    tag:"Banking",
+    icon:"💳",
+    description:"State Bank of India recruitment examinations.",
+    points:[
+      "Reasoning Ability.",
+      "Quantitative Aptitude.",
+      "English Language and other notified sections."
+    ],
+    url:"https://sbi.co.in/web/careers"
+  },
+
+  {
+    name:"HPAS",
+    category:"government",
+    tag:"State Services",
+    icon:"🏔️",
+    description:"Himachal Pradesh Administrative Services and allied state services recruitment.",
+    points:[
+      "General Studies.",
+      "Himachal Pradesh General Knowledge.",
+      "Review the current HPPSC syllabus."
+    ],
+    url:"https://hppsc.hp.gov.in/"
+  },
+
+  {
+    name:"UPSC Civil Services",
+    category:"government",
+    tag:"Civil Services",
+    icon:"🇮🇳",
+    description:"UPSC Civil Services Examination for notified civil services.",
+    points:[
+      "Preliminary examination preparation.",
+      "Mains examination and optional subject planning.",
+      "Interview preparation."
+    ],
+    url:"https://upsc.gov.in/"
+  },
+
+  // PROFESSIONAL EXAMS
+
+  {
+    name:"CAT",
+    category:"professional",
+    tag:"Management",
+    icon:"📈",
+    description:"Common Admission Test for postgraduate management programmes.",
+    points:[
+      "Quantitative Ability.",
+      "Verbal Ability and Reading Comprehension.",
+      "Data Interpretation and Logical Reasoning."
+    ],
+    url:"https://iimcat.ac.in/"
+  },
+
+  {
+    name:"XAT",
+    category:"professional",
+    tag:"Management",
+    icon:"📊",
+    description:"Xavier Aptitude Test for management admissions.",
+    points:[
+      "Verbal Ability.",
+      "Decision Making.",
+      "Quantitative Ability and other notified sections."
+    ],
+    url:"https://xatonline.in/"
+  },
+
+  {
+    name:"UGC NET",
+    category:"professional",
+    tag:"Research",
+    icon:"🎓",
+    description:"National Eligibility Test for Assistant Professor and/or Junior Research Fellowship eligibility.",
+    points:[
+      "Teaching and Research Aptitude.",
+      "Subject-specific preparation.",
+      "Review the latest NTA bulletin."
+    ],
+    url:"https://ugcnet.nta.nic.in/"
+  },
+
+  {
+    name:"CSIR UGC NET",
+    category:"professional",
+    tag:"Research",
+    icon:"🔬",
+    description:"Eligibility test for research fellowship and academic pathways in specified science subjects.",
+    points:[
+      "Choose the relevant subject.",
+      "Review the official syllabus.",
+      "Prepare subject-specific concepts."
+    ],
+    url:"https://csirnet.nta.ac.in/"
+  },
+
+  {
+    name:"CA Foundation",
+    category:"professional",
+    tag:"Commerce",
+    icon:"🧾",
+    description:"Entry-level examination in the Chartered Accountancy course.",
+    points:[
+      "Accounting.",
+      "Business Laws.",
+      "Quantitative Aptitude and other prescribed papers."
+    ],
+    url:"https://www.icai.org/"
+  },
+
+  {
+    name:"CSEET",
+    category:"professional",
+    tag:"Commerce",
+    icon:"📋",
+    description:"Company Secretary entry route under the Institute of Company Secretaries of India.",
+    points:[
+      "Review the current ICSI scheme.",
+      "Prepare prescribed examination subjects.",
+      "Check registration requirements."
+    ],
+    url:"https://www.icsi.edu/"
+  }
+
+];
+
+/* CATEGORY LABELS */
+
+const categoryLabels = {
+  defence:"Defence & Aviation",
+  engineering:"Engineering & Science",
+  university:"University Admissions",
+  government:"Government Jobs",
+  professional:"Management & Professional"
+};
+
+/* RENDER EXAMINATIONS */
+
+const grid = document.getElementById("examGrid");
+const search = document.getElementById("examSearch");
+const resultCount = document.getElementById("resultCount");
+const emptyState = document.getElementById("emptyState");
+
+let activeCategory = "all";
+
+function renderExams() {
+
+  const query = search.value.toLowerCase().trim();
+
+  const filtered = exams.filter(exam => {
+
+    const categoryMatch =
+      activeCategory === "all" ||
+      exam.category === activeCategory;
+
+    const searchMatch =
+      (
+        exam.name + " " +
+        exam.category + " " +
+        exam.tag + " " +
+        exam.description
+      ).toLowerCase().includes(query);
+
+    return categoryMatch && searchMatch;
+  });
+
+  grid.innerHTML = "";
+
+  filtered.forEach(exam => {
+
+    const index = exams.indexOf(exam);
+
+    const card = document.createElement("article");
+    card.className = "exam-card";
+
+    card.innerHTML = `
+      <div class="card-top">
+        <span class="exam-icon">${exam.icon}</span>
+        <span class="tag">${exam.tag}</span>
+      </div>
+
+      <h3>${exam.name}</h3>
+
+      <p>${exam.description}</p>
+
+      <div class="card-footer">
+        <span>${categoryLabels[exam.category]}</span>
+        <button class="view-btn" data-index="${index}">
+          View Details →
+        </button>
+      </div>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  resultCount.textContent =
+    `${filtered.length} examination${filtered.length === 1 ? "" : "s"} found`;
+
+  emptyState.style.display =
+    filtered.length ? "none" : "block";
+}
+
+/* CATEGORY FILTER */
+
+document.querySelectorAll(".filter").forEach(button => {
+
+  button.addEventListener("click", () => {
+
+    document.querySelectorAll(".filter").forEach(b => {
+      b.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    activeCategory = button.dataset.filter;
+
+    renderExams();
+  });
+
+});
+
+/* SEARCH */
+
+search.addEventListener("input", renderExams);
+
+/* CLEAR */
+
+document.getElementById("clearSearch").addEventListener("click", () => {
+
+  search.value = "";
+
+  activeCategory = "all";
+
+  document.querySelectorAll(".filter").forEach(button => {
+    button.classList.toggle(
+      "active",
+      button.dataset.filter === "all"
+    );
+  });
+
+  renderExams();
+
+});
+
+/* MODAL */
+
+const modal = document.getElementById("examModal");
+
+grid.addEventListener("click", event => {
+
+  const button = event.target.closest("[data-index]");
+
+  if (!button) return;
+
+  const exam = exams[Number(button.dataset.index)];
+
+  document.getElementById("modalCategory").textContent =
+    categoryLabels[exam.category];
+
+  document.getElementById("modalTitle").textContent =
+    exam.name;
+
+  document.getElementById("modalDescription").textContent =
+    exam.description;
+
+  const points = document.getElementById("modalPoints");
+
+  points.innerHTML = "";
+
+  exam.points.forEach(point => {
+
+    const li = document.createElement("li");
+    li.textContent = point;
+
+    points.appendChild(li);
+
+  });
+
+  document.getElementById("officialLink").href =
+    exam.url;
+
+  modal.classList.add("show");
+
+  document.body.style.overflow = "hidden";
+
+});
+
+function closeModal() {
+  modal.classList.remove("show");
+  document.body.style.overflow = "";
+}
+
+document.getElementById("closeModal")
+  .addEventListener("click", closeModal);
+
+modal.addEventListener("click", event => {
+  if (event.target === modal) closeModal();
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") closeModal();
+});
+
+/* MOBILE NAVIGATION */
+
+document.getElementById("menuBtn")
+  .addEventListener("click", () => {
+    document.getElementById("navLinks")
+      .classList.toggle("open");
+  });
+
+document.querySelectorAll("#navLinks a").forEach(link => {
+  link.addEventListener("click", () => {
+    document.getElementById("navLinks")
+      .classList.remove("open");
+  });
+});
+
+/* COPYRIGHT YEAR */
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+/* INITIALISE */
+
+renderExams();
+
+</script>
+
+</body>
+</html>
+
