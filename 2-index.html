@@ -1,0 +1,1942 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Competitive Exam Preparation & Training | openEd Labs</title>
+
+<meta name="description" content="Explore competitive examinations in India including NDA, CDS, AFCAT, JEE, GATE, CUET, SSC, Banking, CAT and more. Get structured preparation and training support from openEd Labs.">
+
+<meta name="keywords" content="competitive exams India, NDA preparation, CDS coaching, AFCAT preparation, JEE preparation, GATE preparation, CUET preparation, SSC preparation, banking exams, CAT preparation, online exam training, openEd Labs">
+
+<meta name="author" content="openEd Labs">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0756b5">
+
+<link rel="canonical" href="https://exams.eduspace.work/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Competitive Exam Preparation | openEd Labs">
+<meta property="og:description" content="Explore competitive examinations and discover structured preparation programmes with openEd Labs.">
+<meta property="og:url" content="https://exams.eduspace.work/">
+<meta property="og:site_name" content="openEd Labs">
+
+<link rel="icon" href="https://openedlabs.eduspace.work/favicon.ico">
+
+<style>
+:root {
+    --primary: #0756b5;
+    --primary-dark: #063b80;
+    --primary-light: #eaf3ff;
+    --accent: #ffb629;
+    --text: #172b4d;
+    --muted: #64748b;
+    --background: #f5f8fc;
+    --white: #ffffff;
+    --border: #e2e8f0;
+    --success: #12845b;
+    --shadow: 0 8px 30px rgba(20, 50, 90, .08);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button, input, select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: min(1160px, 92%);
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: -.8px;
+}
+
+.logo span {
+    color: var(--accent);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+}
+
+.nav-cta {
+    background: var(--primary);
+    color: white !important;
+    padding: 10px 17px;
+    border-radius: 7px;
+}
+
+/* HERO */
+
+.hero {
+    background: linear-gradient(120deg, #063b80, #0874d9);
+    color: white;
+    padding: 85px 0 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border: 65px solid rgba(255,255,255,.07);
+    border-radius: 50%;
+    right: -100px;
+    top: -150px;
+}
+
+.hero-content {
+    max-width: 760px;
+    position: relative;
+    z-index: 1;
+}
+
+.eyebrow {
+    display: inline-block;
+    background: rgba(255,255,255,.14);
+    border: 1px solid rgba(255,255,255,.2);
+    padding: 7px 13px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 17px;
+    color: #e0edff;
+    max-width: 650px;
+    margin-bottom: 28px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: .2s;
+}
+
+.btn-primary {
+    background: var(--accent);
+    color: #172b4d;
+}
+
+.btn-primary:hover {
+    background: #ffc957;
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    color: white;
+    border: 1px solid rgba(255,255,255,.6);
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background: rgba(255,255,255,.12);
+}
+
+/* STATS */
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+}
+
+.stat-card {
+    background: white;
+    padding: 22px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.stat-card h3 {
+    color: var(--primary);
+    font-size: 27px;
+}
+
+.stat-card p {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+/* SECTIONS */
+
+section {
+    padding: 70px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-heading h2 {
+    font-size: 30px;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.section-heading p {
+    color: var(--muted);
+    max-width: 650px;
+    margin: auto;
+    font-size: 15px;
+}
+
+/* SEARCH */
+
+.directory {
+    padding-top: 70px;
+}
+
+.search-panel {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 25px;
+}
+
+.search-controls {
+    display: grid;
+    grid-template-columns: 1fr 230px;
+    gap: 12px;
+}
+
+.search-input, .filter-select {
+    width: 100%;
+    padding: 14px 15px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    outline: none;
+    background: white;
+    color: var(--text);
+}
+
+.search-input:focus, .filter-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(7,86,181,.1);
+}
+
+.filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 17px;
+}
+
+.filter-btn {
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    border-radius: 30px;
+    background: white;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.results-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 0 15px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+/* EXAM CARDS */
+
+.exam-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.exam-card {
+    background: white;
+    padding: 23px;
+    border: 1px solid var(--border);
+    border-radius: 11px;
+    transition: .25s;
+    display: flex;
+    flex-direction: column;
+    min-height: 255px;
+}
+
+.exam-card:hover {
+    transform: translateY(-4px);
+    border-color: #a6c8f3;
+    box-shadow: var(--shadow);
+}
+
+.exam-category {
+    color: var(--primary);
+    background: var(--primary-light);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    align-self: flex-start;
+}
+
+.exam-card h3 {
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.exam-card p {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 18px;
+    flex-grow: 1;
+}
+
+.exam-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.small-btn {
+    padding: 9px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: white;
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.small-btn:hover {
+    background: var(--primary-light);
+}
+
+.small-btn.primary {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.small-btn.primary:hover {
+    background: var(--primary-dark);
+}
+
+.no-results {
+    text-align: center;
+    background: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    color: var(--muted);
+    display: none;
+}
+
+/* TRAINING */
+
+.training-section {
+    background: white;
+}
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.training-card {
+    padding: 27px;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.training-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--primary-light);
+    color: var(--primary);
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    border-radius: 9px;
+    margin-bottom: 17px;
+}
+
+.training-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.training-card p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+/* PROCESS */
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.process-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.process-number {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    font-weight: 800;
+    margin: 0 auto 15px;
+}
+
+.process-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.process-card p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* CTA */
+
+.cta-section {
+    background: linear-gradient(120deg, #063b80, #0874d9);
+    color: white;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.cta-section p {
+    color: #dceaff;
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+/* FAQ */
+
+.faq-list {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq-item {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 17px 20px;
+    border: none;
+    background: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.faq-answer {
+    padding: 0 20px 18px;
+    color: var(--muted);
+    font-size: 14px;
+    display: none;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+/* FOOTER */
+
+footer {
+    background: #071d3b;
+    color: white;
+    padding: 45px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-brand {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.footer-brand span {
+    color: var(--accent);
+}
+
+footer p, footer a {
+    color: #b9c8df;
+    font-size: 13px;
+}
+
+footer h4 {
+    margin-bottom: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,.13);
+    padding-top: 18px;
+    font-size: 12px;
+    color: #a9bad2;
+}
+
+/* MODAL */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(5,20,40,.72);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    background: white;
+    width: min(620px, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 13px;
+    padding: 28px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    right: 18px;
+    top: 15px;
+    border: none;
+    background: transparent;
+    font-size: 27px;
+    color: var(--muted);
+}
+
+.modal-content h2 {
+    margin: 12px 35px 10px 0;
+    color: var(--primary);
+}
+
+.modal-content p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.modal-content h4 {
+    margin: 18px 0 8px;
+}
+
+.modal-content ul {
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.modal-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.modal-actions a {
+    display: inline-flex;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 90;
+    background: #20b86a;
+    color: white;
+    border-radius: 50px;
+    padding: 13px 18px;
+    font-weight: 700;
+    font-size: 13px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 900px) {
+    .exam-grid, .training-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-links {
+        gap: 13px;
+    }
+}
+
+@media(max-width: 650px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 14px 0;
+    }
+
+    .nav-links {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 5px;
+        justify-content: flex-start;
+    }
+
+    .nav-links a {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .exam-grid, .training-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2 {
+        font-size: 25px;
+    }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "openEd Labs",
+  "url": "https://openedlabs.eduspace.work/",
+  "email": "openEdlabs@gmail.com",
+  "description": "Online technical education, competitive examination preparation and professional learning programmes.",
+  "sameAs": [
+    "https://openedlabs.eduspace.work/"
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<header>
+    <div class="container navbar">
+
+        <a href="#" class="logo">openEd<span> Labs</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#exams">Examinations</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#contact" class="nav-cta">Enquire Now</a></li>
+        </ul>
+
+    </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+    <div class="container">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">LEARN • PREPARE • ACHIEVE</span>
+
+            <h1>Your Next Achievement Starts With the Right Preparation</h1>
+
+            <p>
+                Explore competitive examinations across defence, engineering,
+                university admissions, government recruitment and professional
+                careers. Discover structured learning and preparation support
+                from openEd Labs.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#exams" class="btn btn-primary">
+                    Explore Examinations →
+                </a>
+
+                <a href="#training" class="btn btn-outline">
+                    Explore Training
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- STATS -->
+
+<div class="container">
+    <div class="stats">
+
+        <div class="stat-card">
+            <h3 id="totalExams">35+</h3>
+            <p>Examinations Listed</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>6</h3>
+            <p>Major Categories</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>1:1</h3>
+            <p>Learning Support</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Online</h3>
+            <p>Learning Options</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- EXAM DIRECTORY -->
+
+<section class="directory" id="exams">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Explore Competitive Examinations</h2>
+            <p>
+                Find examinations based on your career goals. Search by exam
+                name or filter by category to discover relevant information.
+            </p>
+        </div>
+
+        <div class="search-panel">
+
+            <div class="search-controls">
+
+                <input
+                    type="search"
+                    class="search-input"
+                    id="examSearch"
+                    placeholder="Search examinations (e.g. NDA, JEE, SSC, CAT)..."
+                    aria-label="Search examinations"
+                >
+
+                <select class="filter-select" id="categorySelect"
+                        aria-label="Filter examination category">
+
+                    <option value="all">All Categories</option>
+                    <option value="Defence">Defence & Aviation</option>
+                    <option value="Engineering">Engineering & Science</option>
+                    <option value="University">University Admissions</option>
+                    <option value="Government">Government Jobs</option>
+                    <option value="Professional">Professional & Management</option>
+
+                </select>
+
+            </div>
+
+            <div class="filter-tags" id="filterTags">
+
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="Defence">Defence</button>
+                <button class="filter-btn" data-category="Engineering">Engineering</button>
+                <button class="filter-btn" data-category="University">University</button>
+                <button class="filter-btn" data-category="Government">Government</button>
+                <button class="filter-btn" data-category="Professional">Professional</button>
+
+            </div>
+
+        </div>
+
+        <div class="results-info">
+            <span id="resultCount">Showing examinations</span>
+            <span>Choose an exam to learn more</span>
+        </div>
+
+        <div class="exam-grid" id="examGrid"></div>
+
+        <div class="no-results" id="noResults">
+            <h3>No examinations found</h3>
+            <p>Try a different search term or category.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- TRAINING -->
+
+<section class="training-section" id="training">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Preparation & Training Support</h2>
+            <p>
+                Build your preparation strategy with structured learning,
+                practice and guidance.
+            </p>
+        </div>
+
+        <div class="training-grid">
+
+            <div class="training-card">
+                <div class="training-icon">📚</div>
+                <h3>Concept-Based Learning</h3>
+                <p>
+                    Strengthen subject fundamentals and develop a clear
+                    understanding of important examination topics.
+                </p>
+            </div>
+
+            <div class="training-card">
+                <div class="training-icon">🎯</div>
+                <h3>Exam-Focused Preparation</h3>
+                <p>
+                    Focus on relevant topics, examination patterns,
+                    question-solving methods and preparation strategies.
+                </p>
+            </div>
+
+            <div class="training-card">
+                <div class="training-icon">📝</div>
+                <h3>Practice & Assessment</h3>
+                <p>
+                    Improve accuracy and confidence through practice
+                    questions, revision and assessment activities.
+                </p>
+            </div>
+
+            <div class="training-card">
+                <div class="training-icon">👨‍🏫</div>
+                <h3>Personalised Guidance</h3>
+                <p>
+                    Discuss your preparation requirements and explore
+                    suitable individual learning support.
+                </p>
+            </div>
+
+            <div class="training-card">
+                <div class="training-icon">💻</div>
+                <h3>Online Learning</h3>
+                <p>
+                    Explore online learning options designed to support
+                    flexible preparation and regular interaction.
+                </p>
+            </div>
+
+            <div class="training-card">
+                <div class="training-icon">📈</div>
+                <h3>Progress & Revision</h3>
+                <p>
+                    Work towards consistent improvement with revision
+                    plans and progress-oriented learning activities.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROCESS -->
+
+<section id="process">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>How to Get Started</h2>
+            <p>
+                Start by identifying your target examination and
+                discussing your preparation requirements.
+            </p>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+                <div class="process-number">1</div>
+                <h3>Select Your Exam</h3>
+                <p>Explore the directory and identify your target examination.</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">2</div>
+                <h3>Send an Enquiry</h3>
+                <p>Share your examination and preparation requirements.</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">3</div>
+                <h3>Discuss Training</h3>
+                <p>Discuss suitable learning options, schedule and fees.</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">4</div>
+                <h3>Begin Preparation</h3>
+                <p>Start your learning journey with a structured approach.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta-section" id="contact">
+
+    <div class="container">
+
+        <h2>Need Help Choosing the Right Examination?</h2>
+
+        <p>
+            Tell us about your educational background, interests and career
+            goals. Our team can help you explore relevant examination and
+            training options.
+        </p>
+
+        <button class="btn btn-primary"
+                onclick="sendWhatsAppEnquiry('General Examination Guidance')">
+            Discuss Your Preparation on WhatsApp
+        </button>
+
+    </div>
+
+</section>
+
+<!-- FAQ -->
+
+<section id="faq">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Frequently Asked Questions</h2>
+            <p>Some common questions about examinations and training.</p>
+        </div>
+
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Which examinations are covered?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    The directory covers defence, aviation, engineering,
+                    university admissions, government recruitment and
+                    professional examinations. Medical entrance examinations
+                    are not included.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Does openEd Labs provide examination training?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    openEd Labs offers learning and training support.
+                    Availability, scope, schedule and fees should be
+                    discussed for the selected examination.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I enquire about a specific examination?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    Yes. Select an examination and click Training Enquiry.
+                    WhatsApp will open with a pre-filled message containing
+                    the selected examination name.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are examination dates and eligibility updated here?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    This directory provides general examination information.
+                    Always check the relevant official examination website
+                    for current notifications, eligibility, dates and rules.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are online training options available?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    Online learning options can be discussed through the
+                    training enquiry process.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+                <div class="footer-brand">openEd<span> Labs</span></div>
+
+                <p>
+                    Professional learning, technical education and
+                    examination preparation support.
+                </p>
+
+                <p style="margin-top:12px">
+                    Learn • Build • Deploy • Innovate
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#exams">Examinations</a>
+                    <a href="#training">Training</a>
+                    <a href="#faq">FAQs</a>
+                </div>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+
+                <div class="footer-links">
+                    <a href="https://openedlabs.eduspace.work/">
+                        Main Website
+                    </a>
+
+                    <a href="mailto:openedlabs@gmail.com">
+                        Email
+                    </a>
+
+                    <a href="https://wa.me/91962518625">
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © <span id="currentYear"></span> openEd Labs.
+            All Rights Reserved.
+            <br>
+            Examination names and trademarks belong to their respective owners.
+            This website is an independent educational information and training
+            resource and is not an official examination authority.
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- EXAM DETAILS MODAL -->
+
+<div class="modal" id="examModal" role="dialog"
+     aria-modal="true" aria-labelledby="modalTitle">
+
+    <div class="modal-content">
+
+        <button class="modal-close" onclick="closeModal()"
+                aria-label="Close">&times;</button>
+
+        <span class="exam-category" id="modalCategory"></span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <h4>About the Examination</h4>
+        <p id="modalAbout"></p>
+
+        <h4>Preparation Areas</h4>
+        <ul id="modalSubjects"></ul>
+
+        <div class="modal-actions">
+
+            <button class="btn btn-primary" id="modalEnquiry">
+                Training Enquiry on WhatsApp
+            </button>
+
+            <a href="#" target="_blank" rel="noopener noreferrer"
+               class="btn"
+               style="background:#eaf3ff;color:#0756b5"
+               id="modalOfficial">
+                Official Website ↗
+            </a>
+
+        </div>
+
+        <p style="margin-top:15px;font-size:11px">
+            Always refer to the official examination notification for
+            authoritative details.
+        </p>
+
+    </div>
+
+</div>
+
+<a href="https://wa.me/91962518625?text=Hello%20openEd%20Labs%2C%20I%20would%20like%20to%20know%20about%20competitive%20exam%20preparation."
+   target="_blank" rel="noopener noreferrer"
+   class="whatsapp-float">
+    WhatsApp Us
+</a>
+
+<script>
+
+/* ==========================================
+   WHATSAPP ENQUIRY
+========================================== */
+
+const WHATSAPP_NUMBER = "91962518625";
+
+function sendWhatsAppEnquiry(examName) {
+
+    const message =
+`Hello openEd Labs,
+
+I am interested in training and preparation for ${examName}.
+
+Please share the following details:
+
+1. Course and training details
+2. Syllabus and topics covered
+3. Training schedule and duration
+4. Fees and enrolment process
+
+My target examination is: ${examName}
+
+Thank you.`;
+
+    const whatsappURL =
+        "https://wa.me/" +
+        WHATSAPP_NUMBER +
+        "?text=" +
+        encodeURIComponent(message);
+
+    window.open(whatsappURL, "_blank", "noopener,noreferrer");
+}
+
+/* ==========================================
+   EXAM DATABASE
+========================================== */
+
+const exams = [
+
+    // DEFENCE AND AVIATION
+
+    {
+        name: "NDA",
+        full: "National Defence Academy Examination",
+        category: "Defence",
+        description: "An examination for candidates seeking admission to the National Defence Academy and a career as an officer in the Armed Forces.",
+        about: "NDA is conducted by UPSC for admission to the Army, Navy and Air Force wings of the National Defence Academy and the Indian Naval Academy.",
+        subjects: ["Mathematics", "English", "Physics", "Chemistry", "General Science", "History", "Geography", "Current Affairs"],
+        official: "https://upsc.gov.in/"
+    },
+
+    {
+        name: "CDS",
+        full: "Combined Defence Services Examination",
+        category: "Defence",
+        description: "An examination for graduates aspiring to join the Indian Military Academy, Naval Academy, Air Force Academy and Officers Training Academy.",
+        about: "The CDS examination is conducted by UPSC for recruitment into various officer training academies of the Indian Armed Forces.",
+        subjects: ["English", "General Knowledge", "Elementary Mathematics"],
+        official: "https://upsc.gov.in/"
+    },
+
+    {
+        name: "AFCAT",
+        full: "Air Force Common Admission Test",
+        category: "Defence",
+        description: "An entry examination for candidates interested in officer roles in the Indian Air Force.",
+        about: "AFCAT is used for selection into Flying and Ground Duty branches, subject to the applicable recruitment notification.",
+        subjects: ["General Awareness", "Verbal Ability", "Numerical Ability", "Reasoning", "Military Aptitude"],
+        official: "https://afcat.cdac.in/"
+    },
+
+    {
+        name: "Agniveer Army",
+        full: "Indian Army Agniveer Recruitment",
+        category: "Defence",
+        description: "Recruitment examination for eligible candidates seeking service through the Agnipath scheme in the Indian Army.",
+        about: "The recruitment process and examination requirements depend on the specific category and current Army notification.",
+        subjects: ["General Knowledge", "General Science", "Mathematics", "Reasoning"],
+        official: "https://joinindianarmy.nic.in/"
+    },
+
+    {
+        name: "Agniveer Navy",
+        full: "Indian Navy Agniveer Recruitment",
+        category: "Defence",
+        description: "An entry route for eligible candidates seeking Agniveer opportunities in the Indian Navy.",
+        about: "Selection requirements vary by entry and are announced through official Indian Navy recruitment notifications.",
+        subjects: ["Mathematics", "Science", "English", "General Awareness"],
+        official: "https://joinindiannavy.gov.in/"
+    },
+
+    {
+        name: "Agniveervayu",
+        full: "Indian Air Force Agniveervayu",
+        category: "Defence",
+        description: "An examination and selection process for eligible candidates interested in Agniveervayu opportunities.",
+        about: "The Indian Air Force publishes recruitment notifications specifying eligibility, selection stages and examination requirements.",
+        subjects: ["English", "Mathematics", "Physics", "Reasoning", "General Awareness"],
+        official: "https://agnipathvayu.cdac.in/"
+    },
+
+    {
+        name: "CAPF AC",
+        full: "Central Armed Police Forces Assistant Commandant",
+        category: "Defence",
+        description: "A UPSC examination for recruitment of Assistant Commandants in Central Armed Police Forces.",
+        about: "The examination is conducted by UPSC for officer-level recruitment in eligible Central Armed Police Forces.",
+        subjects: ["General Ability", "Intelligence", "General Studies", "Essay", "Comprehension"],
+        official: "https://upsc.gov.in/"
+    },
+
+    // ENGINEERING AND SCIENCE
+
+    {
+        name: "JEE Main",
+        full: "Joint Entrance Examination Main",
+        category: "Engineering",
+        description: "A national-level entrance examination for undergraduate engineering admissions and eligibility for JEE Advanced.",
+        about: "JEE Main is conducted by the National Testing Agency. It is used for admission to participating engineering institutions.",
+        subjects: ["Physics", "Chemistry", "Mathematics"],
+        official: "https://jeemain.nta.nic.in/"
+    },
+
+    {
+        name: "JEE Advanced",
+        full: "Joint Entrance Examination Advanced",
+        category: "Engineering",
+        description: "An entrance examination for admission to undergraduate programmes at the Indian Institutes of Technology.",
+        about: "JEE Advanced is conducted by an organising IIT under the Joint Admission Board framework.",
+        subjects: ["Physics", "Chemistry", "Mathematics"],
+        official: "https://jeeadv.ac.in/"
+    },
+
+    {
+        name: "BITSAT",
+        full: "Birla Institute of Technology and Science Admission Test",
+        category: "Engineering",
+        description: "An entrance examination for admission to undergraduate programmes at BITS campuses.",
+        about: "BITSAT is the admission test conducted by BITS Pilani for its eligible undergraduate programmes.",
+        subjects: ["Physics", "Chemistry", "Mathematics or Biology", "English", "Logical Reasoning"],
+        official: "https://www.bitsadmission.com/"
+    },
+
+    {
+        name: "VITEEE",
+        full: "VIT Engineering Entrance Examination",
+        category: "Engineering",
+        description: "An entrance examination for undergraduate engineering programmes at VIT campuses.",
+        about: "VITEEE is conducted by VIT for admissions to eligible engineering programmes.",
+        subjects: ["Physics", "Chemistry", "Mathematics or Biology", "English", "Aptitude"],
+        official: "https://viteee.vit.ac.in/"
+    },
+
+    {
+        name: "GATE",
+        full: "Graduate Aptitude Test in Engineering",
+        category: "Engineering",
+        description: "An examination assessing undergraduate-level knowledge in engineering, technology, science and selected other disciplines.",
+        about: "GATE scores are used by participating institutions for postgraduate admissions and by some organisations in recruitment.",
+        subjects: ["General Aptitude", "Engineering Mathematics", "Selected Subject Paper"],
+        official: "https://gate2026.iitg.ac.in/"
+    },
+
+    {
+        name: "AME CET",
+        full: "Aircraft Maintenance Engineering Common Entrance Test",
+        category: "Engineering",
+        description: "An entrance examination associated with aviation education and Aircraft Maintenance Engineering programmes.",
+        about: "Candidates should verify participating institutions, approved programmes, eligibility and admission conditions through the relevant official sources.",
+        subjects: ["Physics", "Chemistry", "Mathematics", "English", "General Awareness"],
+        official: "https://www.amecet.in/"
+    },
+
+    {
+        name: "IMU CET",
+        full: "Indian Maritime University Common Entrance Test",
+        category: "Engineering",
+        description: "An entrance examination for eligible maritime education programmes at Indian Maritime University and participating institutions.",
+        about: "IMU CET is associated with admission to specified maritime programmes. Eligibility differs by programme.",
+        subjects: ["Physics", "Chemistry", "Mathematics", "English", "General Knowledge", "Aptitude"],
+        official: "https://www.imu.edu.in/"
+    },
+
+    {
+        name: "IGRUA",
+        full: "Indira Gandhi Institute of Aeronautics Admission",
+        category: "Engineering",
+        description: "An admission route for candidates interested in professional pilot training at IGRUA.",
+        about: "IGRUA publishes admission notifications and selection requirements for its flying training programmes.",
+        subjects: ["English", "Mathematics", "Physics", "Reasoning", "General Awareness"],
+        official: "https://igrua.gov.in/"
+    },
+
+    // UNIVERSITY ADMISSIONS
+
+    {
+        name: "CUET UG",
+        full: "Common University Entrance Test Undergraduate",
+        category: "University",
+        description: "A common entrance examination for undergraduate admissions at participating universities.",
+        about: "CUET UG is conducted by NTA. Participating universities determine their own programme-specific admission requirements.",
+        subjects: ["Language", "Domain Subjects", "General Aptitude Test"],
+        official: "https://cuet.nta.nic.in/"
+    },
+
+    {
+        name: "CUET PG",
+        full: "Common University Entrance Test Postgraduate",
+        category: "University",
+        description: "An entrance examination for postgraduate admissions at participating universities.",
+        about: "CUET PG provides a common examination route for eligible postgraduate programmes at participating institutions.",
+        subjects: ["Subject-Specific Knowledge", "Domain Concepts", "Relevant Analytical Skills"],
+        official: "https://exams.nta.ac.in/CUET-PG/"
+    },
+
+    {
+        name: "CLAT",
+        full: "Common Law Admission Test",
+        category: "University",
+        description: "A national-level entrance examination for eligible undergraduate and postgraduate law programmes at participating National Law Universities.",
+        about: "CLAT is conducted by the Consortium of National Law Universities.",
+        subjects: ["English Language", "Current Affairs", "Legal Reasoning", "Logical Reasoning", "Quantitative Techniques"],
+        official: "https://consortiumofnlus.ac.in/"
+    },
+
+    {
+        name: "IPMAT",
+        full: "Integrated Programme in Management Aptitude Test",
+        category: "University",
+        description: "An entrance examination for eligible integrated management programmes at participating institutions.",
+        about: "IPMAT examination arrangements and admission criteria vary by institution. Check the relevant institute's official notification.",
+        subjects: ["Quantitative Ability", "Verbal Ability", "Logical Reasoning"],
+        official: "https://www.iimidr.ac.in/"
+    },
+
+    {
+        name: "NCHM JEE",
+        full: "National Council for Hotel Management Joint Entrance Examination",
+        category: "University",
+        description: "An entrance examination for eligible hospitality and hotel administration programmes.",
+        about: "NCHM JEE is used for admission to participating hospitality institutions.",
+        subjects: ["Numerical Ability", "Reasoning", "General Knowledge", "English", "Service Aptitude"],
+        official: "https://exams.nta.nic.in/nchm-jee/"
+    },
+
+    {
+        name: "NIFT",
+        full: "National Institute of Fashion Technology Entrance Examination",
+        category: "University",
+        description: "An entrance examination for eligible fashion, design and related programmes at NIFT.",
+        about: "NIFT admissions involve programme-specific selection requirements and assessment stages.",
+        subjects: ["Creative Ability", "General Ability", "Communication", "Quantitative Ability", "Situation Test where applicable"],
+        official: "https://www.nift.ac.in/"
+    },
+
+    {
+        name: "NATA",
+        full: "National Aptitude Test in Architecture",
+        category: "University",
+        description: "An aptitude assessment associated with admission to eligible architecture programmes.",
+        about: "NATA is conducted by the Council of Architecture. Check current eligibility and admission rules.",
+        subjects: ["Drawing", "Visual Composition", "Architectural Awareness", "Logical Reasoning", "Numerical Ability"],
+        official: "https://www.nata.in/"
+    },
+
+    // GOVERNMENT JOBS
+
+    {
+        name: "UPSC CSE",
+        full: "Civil Services Examination",
+        category: "Government",
+        description: "A national-level examination for recruitment to various civil services of the Government of India.",
+        about: "The Civil Services Examination is conducted by UPSC and generally involves Preliminary, Main and Interview stages.",
+        subjects: ["History", "Geography", "Polity", "Economy", "Environment", "Science", "Current Affairs", "Essay"],
+        official: "https://upsc.gov.in/"
+    },
+
+    {
+        name: "SSC CGL",
+        full: "Staff Selection Commission Combined Graduate Level",
+        category: "Government",
+        description: "A recruitment examination for various Group B and Group C posts in government departments and organisations.",
+        about: "SSC CGL recruitment is conducted by the Staff Selection Commission through notified examination stages.",
+        subjects: ["Quantitative Aptitude", "Reasoning", "English", "General Awareness"],
+        official: "https://ssc.gov.in/"
+    },
+
+    {
+        name: "SSC CHSL",
+        full: "Staff Selection Commission Combined Higher Secondary Level",
+        category: "Government",
+        description: "A recruitment examination for eligible posts requiring the prescribed higher secondary qualification.",
+        about: "SSC CHSL recruitment covers notified posts such as Lower Division Clerk and Data Entry Operator, subject to current rules.",
+        subjects: ["English", "General Intelligence", "Quantitative Aptitude", "General Awareness"],
+        official: "https://ssc.gov.in/"
+    },
+
+    {
+        name: "SSC GD",
+        full: "Staff Selection Commission General Duty Constable",
+        category: "Government",
+        description: "A recruitment examination for eligible Constable and Rifleman posts in specified forces.",
+        about: "SSC GD recruitment follows the eligibility and selection stages specified in the current notification.",
+        subjects: ["Reasoning", "General Knowledge", "Mathematics", "English or Hindi"],
+        official: "https://ssc.gov.in/"
+    },
+
+    {
+        name: "RRB NTPC",
+        full: "Railway Recruitment Board Non-Technical Popular Categories",
+        category: "Government",
+        description: "A railway recruitment examination for notified non-technical posts.",
+        about: "RRB NTPC recruitment covers different posts and qualification levels as stated in the recruitment notification.",
+        subjects: ["General Awareness", "Mathematics", "General Intelligence", "Reasoning"],
+        official: "https://www.rrbcdg.gov.in/"
+    },
+
+    {
+        name: "RRB Group D",
+        full: "Railway Recruitment Board Group D",
+        category: "Government",
+        description: "Recruitment examination for notified Level 1 posts in Indian Railways.",
+        about: "The Railway Recruitment Boards publish eligibility, examination and physical efficiency requirements.",
+        subjects: ["Mathematics", "General Science", "Reasoning", "General Awareness"],
+        official: "https://www.rrbcdg.gov.in/"
+    },
+
+    {
+        name: "IBPS PO",
+        full: "Institute of Banking Personnel Selection Probationary Officer",
+        category: "Government",
+        description: "A recruitment examination for Probationary Officer positions in participating banks.",
+        about: "IBPS PO recruitment includes the stages and eligibility requirements mentioned in the official notification.",
+        subjects: ["Reasoning", "Quantitative Aptitude", "English", "General Awareness", "Banking Knowledge"],
+        official: "https://www.ibps.in/"
+    },
+
+    {
+        name: "IBPS Clerk",
+        full: "Institute of Banking Personnel Selection Customer Service Associate",
+        category: "Government",
+        description: "A recruitment examination for clerical/customer service associate positions in participating banks.",
+        about: "The recruitment process and post designation are governed by the latest IBPS notification.",
+        subjects: ["Reasoning", "Numerical Ability", "English", "General and Financial Awareness"],
+        official: "https://www.ibps.in/"
+    },
+
+    {
+        name: "SBI PO",
+        full: "State Bank of India Probationary Officer",
+        category: "Government",
+        description: "An examination for recruitment to Probationary Officer positions in State Bank of India.",
+        about: "SBI publishes its own recruitment notifications, eligibility conditions and examination pattern.",
+        subjects: ["Reasoning", "Data Analysis", "English", "General Awareness", "Banking Knowledge"],
+        official: "https://sbi.co.in/web/careers"
+    },
+
+    {
+        name: "SBI Clerk",
+        full: "State Bank of India Junior Associate",
+        category: "Government",
+        description: "An examination for recruitment to Junior Associate positions in SBI.",
+        about: "The recruitment process and eligibility requirements are specified by SBI in its current notification.",
+        subjects: ["English", "Numerical Ability", "Reasoning", "General and Financial Awareness"],
+        official: "https://sbi.co.in/web/careers"
+    },
+
+    {
+        name: "HPAS",
+        full: "Himachal Pradesh Administrative Services Examination",
+        category: "Government",
+        description: "A state-level examination for recruitment to administrative and allied services in Himachal Pradesh.",
+        about: "The Himachal Pradesh Public Service Commission publishes examination notifications, eligibility and syllabus.",
+        subjects: ["General Studies", "Himachal Pradesh General Knowledge", "English", "Essay", "Optional Subjects where applicable"],
+        official: "https://hppsc.hp.gov.in/"
+    },
+
+    // PROFESSIONAL AND MANAGEMENT
+
+    {
+        name: "CAT",
+        full: "Common Admission Test",
+        category: "Professional",
+        description: "A national-level entrance examination for management programmes at IIMs and participating institutions.",
+        about: "CAT is conducted by an IIM on a rotational basis. Admission criteria vary by participating institution.",
+        subjects: ["Verbal Ability", "Reading Comprehension", "Data Interpretation", "Logical Reasoning", "Quantitative Ability"],
+        official: "https://iimcat.ac.in/"
+    },
+
+    {
+        name: "XAT",
+        full: "Xavier Aptitude Test",
+        category: "Professional",
+        description: "An entrance examination used by XLRI and participating institutions for management admissions.",
+        about: "XAT is conducted by XLRI. Check individual institution admission requirements.",
+        subjects: ["Verbal Ability", "Logical Reasoning", "Quantitative Ability", "Data Interpretation", "Decision Making", "General Knowledge"],
+        official: "https://xatonline.in/"
+    },
+
+    {
+        name: "UGC NET",
+        full: "University Grants Commission National Eligibility Test",
+        category: "Professional",
+        description: "An examination for determining eligibility for Assistant Professor and other notified academic eligibility categories.",
+        about: "UGC NET is conducted by NTA in accordance with UGC rules and current notification requirements.",
+        subjects: ["Teaching and Research Aptitude", "Subject-Specific Knowledge"],
+        official: "https://ugcnet.nta.nic.in/"
+    },
+
+    {
+        name: "CSIR NET",
+        full: "CSIR University Grants Commission National Eligibility Test",
+        category: "Professional",
+        description: "An examination for eligibility in specified science subjects for research and academic opportunities.",
+        about: "CSIR NET covers notified science disciplines and follows the applicable examination scheme.",
+        subjects: ["Chemical Sciences", "Earth Sciences", "Life Sciences", "Mathematical Sciences", "Physical Sciences"],
+        official: "https://csirnet.nta.ac.in/"
+    },
+
+    {
+        name: "CA Foundation",
+        full: "Chartered Accountancy Foundation Examination",
+        category: "Professional",
+        description: "An entry-level examination in the Chartered Accountancy education pathway.",
+        about: "The Institute of Chartered Accountants of India specifies the syllabus, eligibility and examination schedule.",
+        subjects: ["Accounting", "Business Laws", "Quantitative Aptitude", "Business Economics"],
+        official: "https://www.icai.org/"
+    },
+
+    {
+        name: "CSEET",
+        full: "Company Secretary Executive Entrance Test",
+        category: "Professional",
+        description: "An entrance assessment for eligible candidates pursuing the Company Secretary course.",
+        about: "The Institute of Company Secretaries of India publishes the applicable CSEET syllabus and examination arrangements.",
+        subjects: ["Business Communication", "Legal Aptitude", "Economic and Business Environment", "Current Affairs"],
+        official: "https://www.icsi.edu/"
+    }
+
+];
+
+/* ==========================================
+   EXAM RENDERING
+========================================== */
+
+const examGrid = document.getElementById("examGrid");
+const searchInput = document.getElementById("examSearch");
+const categorySelect = document.getElementById("categorySelect");
+const resultCount = document.getElementById("resultCount");
+const noResults = document.getElementById("noResults");
+
+let activeCategory = "all";
+
+document.getElementById("totalExams").textContent = exams.length + "+";
+
+function renderExams() {
+
+    const query = searchInput.value.trim().toLowerCase();
+
+    const filtered = exams.filter(exam => {
+
+        const matchesSearch =
+            exam.name.toLowerCase().includes(query) ||
+            exam.full.toLowerCase().includes(query) ||
+            exam.description.toLowerCase().includes(query) ||
+            exam.category.toLowerCase().includes(query);
+
+        const selectedCategory = categorySelect.value;
+
+        const matchesCategory =
+            (activeCategory === "all" || exam.category === activeCategory) &&
+            (selectedCategory === "all" || exam.category === selectedCategory);
+
+        return matchesSearch && matchesCategory;
+
+    });
+
+    examGrid.innerHTML = "";
+
+    resultCount.textContent =
+        "Showing " + filtered.length + " of " + exams.length + " examinations";
+
+    noResults.style.display = filtered.length ? "none" : "block";
+
+    filtered.forEach(exam => {
+
+        const card = document.createElement("article");
+        card.className = "exam-card";
+
+        const category = document.createElement("span");
+        category.className = "exam-category";
+        category.textContent = exam.category;
+
+        const title = document.createElement("h3");
+        title.textContent = exam.name;
+
+        const description = document.createElement("p");
+        description.textContent = exam.description;
+
+        const actions = document.createElement("div");
+        actions.className = "exam-card-actions";
+
+        const detailsBtn = document.createElement("button");
+        detailsBtn.className = "small-btn";
+        detailsBtn.textContent = "View Details";
+        detailsBtn.addEventListener("click", () => openModal(exam));
+
+        const enquiryBtn = document.createElement("button");
+        enquiryBtn.className = "small-btn primary";
+        enquiryBtn.textContent = "Training Enquiry";
+
+        enquiryBtn.addEventListener("click", () => {
+            sendWhatsAppEnquiry(exam.name + " - " + exam.full);
+        });
+
+        actions.append(detailsBtn, enquiryBtn);
+
+        card.append(category, title, description, actions);
+
+        examGrid.appendChild(card);
+
+    });
+
+}
+
+/* ==========================================
+   SEARCH AND FILTERS
+========================================== */
+
+searchInput.addEventListener("input", renderExams);
+
+categorySelect.addEventListener("change", () => {
+
+    activeCategory = "all";
+
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.category === "all");
+    });
+
+    renderExams();
+
+});
+
+document.querySelectorAll(".filter-btn").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        activeCategory = button.dataset.category;
+
+        categorySelect.value = "all";
+
+        document.querySelectorAll(".filter-btn").forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+        renderExams();
+
+    });
+
+});
+
+/* ==========================================
+   EXAM DETAILS MODAL
+========================================== */
+
+const modal = document.getElementById("examModal");
+
+function openModal(exam) {
+
+    document.getElementById("modalCategory").textContent = exam.category;
+
+    document.getElementById("modalTitle").textContent =
+        exam.name + " - " + exam.full;
+
+    document.getElementById("modalDescription").textContent =
+        exam.description;
+
+    document.getElementById("modalAbout").textContent =
+        exam.about;
+
+    const subjectList = document.getElementById("modalSubjects");
+
+    subjectList.innerHTML = "";
+
+    exam.subjects.forEach(subject => {
+
+        const li = document.createElement("li");
+        li.textContent = subject;
+        subjectList.appendChild(li);
+
+    });
+
+    const officialLink = document.getElementById("modalOfficial");
+
+    officialLink.href = exam.official;
+
+    document.getElementById("modalEnquiry").onclick = () => {
+        sendWhatsAppEnquiry(exam.name + " - " + exam.full);
+    };
+
+    modal.classList.add("show");
+    document.body.style.overflow = "hidden";
+
+}
+
+function closeModal() {
+
+    modal.classList.remove("show");
+    document.body.style.overflow = "";
+
+}
+
+modal.addEventListener("click", event => {
+
+    if (event.target === modal) {
+        closeModal();
+    }
+
+});
+
+document.addEventListener("keydown", event => {
+
+    if (event.key === "Escape") {
+        closeModal();
+    }
+
+});
+
+/* ==========================================
+   FAQ
+========================================== */
+
+document.querySelectorAll(".faq-question").forEach(question => {
+
+    question.addEventListener("click", () => {
+
+        const item = question.parentElement;
+
+        item.classList.toggle("open");
+
+        const symbol = question.querySelector("span");
+
+        symbol.textContent = item.classList.contains("open") ? "−" : "+";
+
+    });
+
+});
+
+/* ==========================================
+   FOOTER YEAR
+========================================== */
+
+document.getElementById("currentYear").textContent =
+    new Date().getFullYear();
+
+/* ==========================================
+   INITIALISE
+========================================== */
+
+renderExams();
+
+</script>
+
+</body>
+</html>
+
